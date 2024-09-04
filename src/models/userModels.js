@@ -1,4 +1,4 @@
-const getAll = () => {
+export const getAll = () => {
     return  [
         {
             id: 1, 
@@ -13,8 +13,6 @@ const getAll = () => {
     ]
 }
 
-const create = () => {
+ export const create = () => {
 
 }
-
-export default {getAll, create}
